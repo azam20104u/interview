@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class CharFreqUseArray {
 	public static void main(String[] args) {
-		String str = "alhamdulillah";
+		String str = "MALIYALAM";
 		int[] freq = new int[256];
 		for (int i = 0; i < str.length(); i++) {
             freq[str.charAt(i)]++;

@@ -24,5 +24,6 @@ public class Java8Features {
 				.sorted(Collections.reverseOrder(Map.Entry.comparingByValue())).filter(e -> e.getValue() <= 5)
 				.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e2, LinkedHashMap::new));
 		System.out.println(linkedHashMap);
+
 	}
 }

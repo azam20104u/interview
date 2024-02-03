@@ -8,7 +8,6 @@ public class ExtendThreadDemo {
 		ReaderThread th2 = new ReaderThread(res);
 		th2.setName("th2");
 		th1.start();
-
 		th2.start();
 	}
 }

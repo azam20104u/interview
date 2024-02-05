@@ -2,7 +2,6 @@ package com.azam.array;
 
 public class BinarySearch {
 	public static void main(String[] args) {
-		//Adding a comment
 		int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 		int search = 3;
 		int low = 0;

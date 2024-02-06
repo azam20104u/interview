@@ -1,7 +1,6 @@
 package com.azam.java8;
 
 public class CloningDemo {
-
 	public static void main(String[] args) {
 		Employee employee = new Employee("Azam", "IT", 23,Address.builder().state("WestBengal").build());
 		try {
@@ -14,5 +13,4 @@ public class CloningDemo {
 			e.printStackTrace();
 		}
 	}
-
 }
